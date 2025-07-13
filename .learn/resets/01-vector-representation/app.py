@@ -11,11 +11,8 @@ def create_vector(lst, mode="pure"):
     Returns:
     - A vector in the specified format.
     """
-    pure = [1,2,3]
-
-    return pure
-
-numpy = np.array([1, 2, 3])
+    pass # Remove this line when implemented
+    
 
 # Test the function with the following values:
 vector1 = create_vector([1, 2, 3], "pure")

@@ -13,12 +13,7 @@ def create_matrix(n, m, mode="pure"):
     Returns:
     - A matrix in the specified format.
     """
-    pure =np.arange(0, 9)
-        
-    return((np.reshape(pure, (3, 3))))
-
-   
-numpy = np.random.random()
+    pass # Remove this line when implemented
 
 # Test the function with the following values:
 matrix1 = create_matrix(3, 3, "pure")

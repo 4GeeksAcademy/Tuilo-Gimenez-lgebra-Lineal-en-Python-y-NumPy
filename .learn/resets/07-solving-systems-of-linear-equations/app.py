@@ -13,11 +13,5 @@ def solve_system(A, b, mode="numpy"):
     - The solution vector x.
     """
    
-    x = np.linalg.solve(A, b)
     pass  # Remove this line when implemented
 
-A = [[2, 3], [4, -1]]
-b = [5, 1]
-
-solve_system(A, b, "pure")
-solve_system(A, b, "numpy")

@@ -29,9 +29,3 @@ def inverse_matrix(matrix, mode="pure"):
     pass  # Remove this line when implemented
 
 
-matrix = [[1, 2], [3, 4]]
-
-determinant(matrix, "pure")
-determinant(matrix, "numpy")
-inverse_matrix(matrix, "pure")
-inverse_matrix(matrix, "numpy")

@@ -20,23 +20,7 @@ def dot_product(v1, v2, mode="pure"):
     - The dot product as a scalar value.
     """
 
-    v1 = [1, 2, 3]
-    v2 = [4, 5, 6]
-
-    dot_product = sum(v1[i] * v2[i] for i in range(len(v1)))
-    return(dot_product)
-
-
-def dot_product(v1, v2, mode="numpy"):
-
-    v1 = np.array([1, 2, 3])
-    v2 = np.array([4, 5, 6])
-
-    dot_product = np.dot(v1, v2)
-    return(dot_product)
-
-
-
+    pass  # Remove this line when implemented
 
 def matrix_product(A, B, mode="pure"):
     """
@@ -50,27 +34,7 @@ def matrix_product(A, B, mode="pure"):
     Returns:
     - A matrix with the result of A * B.
     """
-
-    if len(A) != len(B):
-        return ValueError("Los vectores deben tener la misma longitud.") 
-    
-    A = [[1, 2], [3, 4]]
-    B = [[5, 6], [7, 8]]
-
-    pure = [[sum(A[i][k] * B[k][j] for k in range(len(B))) for j in range(len(B[0]))] for i in range(len(A))]
-    print(pure)
-
-
-
-    
-
-def matrix_product(A, B, mode="numpy"):
-    
-    A = np.array([[1, 2], [3, 4]])
-    B = np.array([[5, 6], [7, 8]])
-
-    numpy = np.dot(A, B)
-    return(numpy)
+    pass  # Remove this line when implemented
 
 
 dot_result_pure = dot_product(vector1, vector2, "pure")
